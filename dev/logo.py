@@ -23,4 +23,4 @@ yshift = -3.0
 yscale = 14
 plt.plot(x, yscale * g0 + yshift, c="#5E81AC", lw=100)
 
-plt.savefig("../public/logo.svg", dpi=400)
+plt.savefig("../public/logo.svg", dpi=400, bbox_inches="tight", transparent=True)
