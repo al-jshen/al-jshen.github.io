@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
 :root {
   --color-bg: #23272e;
-  --nord-dark0: #2E3440;
-  --nord-dark1: #3B4252;
-  --nord-dark2: #434C5E;
-  --nord-dark3: #4C566A;
-  --nord-light0: #D8DEE9;
-  --nord-light1: #E5E9F0;
-  --nord-light2: #ECEFF4;
-  --nord-frost0: #8FBCBB;
-  --nord-frost1: #88C0D0;
-  --nord-frost2: #81A1C1;
-  --nord-frost3: #5E81AC;
-  --nord-acc0: #BF616A;
-  --nord-acc1: #D08770;
-  --nord-acc2: #EBCB8B;
-  --nord-acc3: #A3BE8C;
-  --nord-acc4: #B48EAD;
+  --nord-dark0: #2e3440;
+  --nord-dark1: #3b4252;
+  --nord-dark2: #434c5e;
+  --nord-dark3: #4c566a;
+  --nord-light0: #d8dee9;
+  --nord-light1: #e5e9f0;
+  --nord-light2: #eceff4;
+  --nord-frost0: #8fbcbb;
+  --nord-frost1: #88c0d0;
+  --nord-frost2: #81a1c1;
+  --nord-frost3: #5e81ac;
+  --nord-acc0: #bf616a;
+  --nord-acc1: #d08770;
+  --nord-acc2: #ebcb8b;
+  --nord-acc3: #a3be8c;
+  --nord-acc4: #b48ead;
 }
 
 /* Adapted https://gist.github.com/derblub/7393719 */
@@ -37,18 +37,16 @@
 
 /* Scrollbar click color */
 ::-webkit-scrollbar-thumb:vertical:active {
-  background: var(--nord-dark2); 
+  background: var(--nord-dark2);
   -webkit-border-radius: 100px;
 }
-
 
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: EB Garamond, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-    sans-serif;
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--color-bg);
   color: var(--nord-light0);
   overflow-x: hidden;
@@ -133,8 +131,8 @@ code {
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .row {
@@ -171,16 +169,17 @@ code {
   color: var(--nord-light2);
   background-color: var(--nord-dark0);
   border: 2px solid var(--nord-frost3);
-  box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
-  /* margin: 0 0 1rem 0; */
+  margin: 0.5rem;
+  padding: 0;
   font-size: 1.5rem;
 }
 
 .card p {
-  margin: 0;
+  margin: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.5;
 }
