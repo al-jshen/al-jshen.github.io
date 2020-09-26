@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
+:root {
+  --color-bg: #23272e;
+  --nord-dark0: #2E3440;
+  --nord-dark1: #3B4252;
+  --nord-dark2: #434C5E;
+  --nord-dark3: #4C566A;
+  --nord-light0: #D8DEE9;
+  --nord-light1: #E5E9F0;
+  --nord-light2: #ECEFF4;
+  --nord-frost0: #8FBCBB;
+  --nord-frost1: #88C0D0;
+  --nord-frost2: #81A1C1;
+  --nord-frost3: #5E81AC;
+  --nord-acc0: #BF616A;
+  --nord-acc1: #D08770;
+  --nord-acc2: #EBCB8B;
+  --nord-acc3: #A3BE8C;
+  --nord-acc4: #B48EAD;
+}
+
+
 html,
 body {
   padding: 0;
@@ -7,6 +28,9 @@ body {
   font-family: EB Garamond, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
+  background-color: var(--color-bg);
+  color: var(--nord-light0);
+  overflow: hidden;
 }
 
 * {
@@ -34,7 +58,7 @@ main {
 footer {
   width: 100%;
   height: 100px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid var(--color-fg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +80,7 @@ a {
 }
 
 .title a {
-  color: #0070f3;
+  color: #81A1C1;
   text-decoration: none;
 }
 
@@ -83,7 +107,7 @@ a {
 }
 
 code {
-  background: #fafafa;
+  background: var(--nord-dark1);
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -104,18 +128,22 @@ code {
 .row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 3rem;
+  column-width: 200px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 3rem;
-  max-width: 50vh;
+  padding: 1rem;
+  width: 100%;
 }
 
 .card {
@@ -125,16 +153,18 @@ code {
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  border-radius: 15px;
+  border: 2px solid var(--nord-dark2);
+  background-color: var(--nord-dark0);
+  transition: all 0.2s linear;
+  box-shadow:  0px 4px 25px 5px rgba(0, 0, 0, 0.2)
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: var(--nord-frost2);
+  border: 2px solid var(--nord-frost3);
 }
 
 .card h3 {
@@ -152,7 +182,10 @@ code {
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  .main {
+    flex-direction: column;
+  }
   .grid {
     width: 100%;
     flex-direction: column;

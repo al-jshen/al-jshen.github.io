@@ -11,7 +11,7 @@ export default function Home() {
       <main>
         <div className="column">
           <h1 className="title">
-            Welcome to <a href="https://nextjs.org">Next.js!</a>
+            Jeff Shen
           </h1>
 
           <p className="description">
