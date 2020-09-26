@@ -20,6 +20,27 @@
   --nord-acc4: #B48EAD;
 }
 
+/* Adapted https://gist.github.com/derblub/7393719 */
+
+/* Scrollbar track color */
+::-webkit-scrollbar {
+  width: 9px; /* 1px wider than Lion. */
+  background-color: var(--color-bg);
+  -webkit-border-radius: 100px;
+}
+
+/* Scrollbar scroller/body color */
+::-webkit-scrollbar-thumb:vertical {
+  background: var(--nord-dark0);
+  -webkit-border-radius: 100px;
+}
+
+/* Scrollbar click color */
+::-webkit-scrollbar-thumb:vertical:active {
+  background: var(--nord-dark2); 
+  -webkit-border-radius: 100px;
+}
+
 
 html,
 body {
@@ -30,16 +51,13 @@ body {
     sans-serif;
   background-color: var(--color-bg);
   color: var(--nord-light0);
-  overflow: hidden;
-}
-
-* {
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  min-width: 100vw;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,8 +65,12 @@ body {
 }
 
 main {
-  padding: 5rem 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
   flex: 1;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -80,7 +102,7 @@ a {
 }
 
 .title a {
-  color: #81A1C1;
+  color: var(--nord-acc1);
   text-decoration: none;
 }
 
@@ -115,60 +137,45 @@ code {
     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
 .row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 3rem;
-  column-width: 200px;
 }
 
 .column {
+  flex: 1;
+  flex-basis: 42.5%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 3rem;
+  margin: 1rem;
   padding: 1rem;
-  width: 100%;
 }
 
 .card {
   margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
+  width: 70%;
+  padding: 1rem;
   text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border-radius: 15px;
+  border-radius: 20px;
   border: 2px solid var(--nord-dark2);
-  background-color: var(--nord-dark0);
   transition: all 0.2s linear;
-  box-shadow:  0px 4px 25px 5px rgba(0, 0, 0, 0.2)
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: var(--nord-frost2);
+  color: var(--nord-light2);
+  background-color: var(--nord-dark0);
   border: 2px solid var(--nord-frost3);
+  box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2)
 }
 
 .card h3 {
-  margin: 0 0 1rem 0;
+  /* margin: 0 0 1rem 0; */
   font-size: 1.5rem;
 }
 
@@ -181,14 +188,3 @@ code {
 .logo {
   height: 1em;
 }
-
-@media screen and (max-width: 500px) {
-  .main {
-    flex-direction: column;
-  }
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
- 

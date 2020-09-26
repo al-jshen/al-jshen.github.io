@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Jeff Shen</title>
         <link rel="icon" href="/logo.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <main>
