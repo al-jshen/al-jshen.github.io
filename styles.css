@@ -146,7 +146,7 @@ code {
 
 .column {
   flex: 1;
-  flex-basis: 42.5%;
+  flex-basis: 44%;
   display: flex;
   flex-direction: column;
   align-items: center;
