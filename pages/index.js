@@ -1,11 +1,11 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Jeff Shen</title>
+        <link rel="icon" href="/logo.svg" />
       </Head>
 
       <main>
@@ -188,7 +188,8 @@ export default function Home() {
             flex-direction: column;
           }
         }
-      `}</style>
+      `}
+      </style>
 
       <style jsx global>{`
         html,
@@ -203,7 +204,8 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}
+      </style>
     </div>
-  )
+  );
 }
