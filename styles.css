@@ -78,7 +78,7 @@ main {
 footer {
   width: 100%;
   height: 100px;
-  border-top: 1px solid var(--color-fg);
+  border-top: 1px solid var(--nord-dark1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,19 +95,15 @@ footer a {
 }
 
 a {
+  text-decoration: none;
   color: inherit;
-  text-decoration: none;
 }
 
-.title a {
-  color: var(--nord-acc1);
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
+a:hover,
+a:focus,
+a:active {
   text-decoration: underline;
+  color: var(--nord-acc3);
 }
 
 .title {
@@ -116,14 +112,13 @@ a {
   font-size: 4rem;
 }
 
-.title,
-.description {
+.title {
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
+p {
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 code {
@@ -159,7 +154,7 @@ code {
   padding: 1rem;
   text-align: left;
   border-radius: 20px;
-  border: 2px solid var(--nord-dark2);
+  border: 2px solid var(--nord-dark1);
   transition: all 0.2s linear;
 }
 
@@ -168,7 +163,7 @@ code {
 .card:active {
   color: var(--nord-light2);
   background-color: var(--nord-dark0);
-  border: 2px solid var(--nord-frost3);
+  border: 2px solid var(--nord-dark3);
   box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -186,4 +181,12 @@ code {
 
 .logo {
   height: 1em;
+}
+
+.fullpage {
+  margin: 5rem;
+  text-align: left;
+  border: 2px solid var(--nord-frost3);
+  border-radius: 20px;
+  box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2);
 }

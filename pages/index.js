@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import Projects from './projects';
+import Head from "next/head";
+import Projects from "./projects";
 
 export default function Home() {
   return (
@@ -12,18 +12,15 @@ export default function Home() {
 
       <main>
         <div className="column">
-          <h1 className="title">
-            Jeff Shen
-          </h1>
-
-          <p className="description">
-            Get started by editing <code>pages/index.js</code>
-          </p>
+          <h1 className="title">Jeff Shen</h1>
+          <p>testing</p>
         </div>
 
-        <Projects />
+        <div className="column">
+          <h1 className="title">Selected work</h1>
+          <Projects />
+        </div>
       </main>
-
     </div>
   );
 }
