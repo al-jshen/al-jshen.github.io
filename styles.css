@@ -47,6 +47,7 @@ body {
   margin: 0;
   font-family: EB Garamond, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.2rem;
   background-color: var(--color-bg);
   color: var(--nord-light0);
   overflow-x: hidden;
@@ -107,9 +108,11 @@ a:active {
 }
 
 .title {
+  display: inline;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
+  font-weight: normal;
 }
 
 .title {
@@ -117,6 +120,7 @@ a:active {
 }
 
 h3 {
+  font-weight: normal;
   display: inline;
 }
 
@@ -147,21 +151,23 @@ code {
 
 .column {
   flex: 1;
-  flex-basis: 42%;
+  flex-basis: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: 1rem;
   padding: 1rem;
+  border: 1px solid red;
 }
 
 .card {
-  margin: 0.3rem;
+  margin: 0.3rem 0.3rem 0.3rem 0;
+  padding: 0.3rem 0;
   width: 100%;
-  padding: 0.5rem;
   text-align: left;
   border-radius: 20px;
+  border: 2px solid transparent;
   transition: all 0.2s linear;
 }
 
@@ -176,6 +182,7 @@ code {
 
 .card h3 {
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .card p {
