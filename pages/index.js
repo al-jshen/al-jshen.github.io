@@ -11,14 +11,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="column">
-          <h1 className="title">Jeff Shen</h1>
-          <p>testing</p>
-        </div>
+        <div className="row">
+          <div className="column">
+            <h1 className="title">Jeff Shen</h1>
+            <p>testing</p>
+          </div>
 
-        <div className="column">
-          <h1 className="title">Selected work</h1>
-          <Projects />
+          <div className="column">
+            <h1 className="title">Selected work</h1>
+            <Projects />
+          </div>
         </div>
       </main>
     </div>

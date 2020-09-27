@@ -70,7 +70,6 @@ main {
   flex: 1;
   flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -133,9 +132,12 @@ code {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  min-width: 60%;
 }
 
 .column {
@@ -150,13 +152,11 @@ code {
 }
 
 .card {
-  /* margin: 1rem; */
-  width: 70%;
-  padding: 1rem;
+  margin: 0.3rem;
+  width: 100%;
+  padding: 0.5rem;
   text-align: left;
   border-radius: 20px;
-  /* border: 2px solid var(--nord-dark1); */
-  border: 2px solid transparent;
   transition: all 0.2s linear;
 }
 
