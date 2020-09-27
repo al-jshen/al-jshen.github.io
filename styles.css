@@ -65,9 +65,8 @@ body {
 
 main {
   height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 2rem;
+  max-width: 1500px;
+  border: 1px solid yellow;
   flex: 1;
   flex-wrap: wrap;
   display: flex;
@@ -158,6 +157,7 @@ code {
   justify-content: center;
   margin: 1rem;
   padding: 1rem;
+  border: 1px solid red;
 }
 
 .column .title {
