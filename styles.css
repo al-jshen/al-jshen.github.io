@@ -116,7 +116,12 @@ a:active {
   text-align: center;
 }
 
+h3 {
+  display: inline;
+}
+
 p {
+  display: inline;
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -170,8 +175,6 @@ code {
 }
 
 .card h3 {
-  margin: 0.5rem;
-  padding: 0;
   font-size: 1.5rem;
 }
 
