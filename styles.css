@@ -67,7 +67,7 @@ main {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 1rem;
+  padding: 2rem;
   flex: 1;
   flex-wrap: wrap;
   display: flex;
@@ -125,7 +125,6 @@ h3 {
 }
 
 p {
-  display: inline;
   font-size: 1.5rem;
   line-height: 1.5;
   margin-bottom: 0; /* this doesn't actually get ignored */
@@ -161,10 +160,18 @@ code {
   padding: 1rem;
 }
 
+.column .title {
+  margin: 1rem;
+}
+
+.column p {
+  margin: 1rem;
+}
+
 .card {
-  margin: 0.3rem 0.3rem 0.3rem 0;
-  padding: 0.3rem 0;
-  width: 100%;
+  margin: 0.3rem 0.3rem 0.3rem 0.3rem;
+  padding: 1rem;
+  width: 90%;
   text-align: left;
   border-radius: 20px;
   border: 2px solid transparent;
@@ -189,6 +196,7 @@ code {
   margin: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.5;
+  display: inline;
 }
 
 .logo {
