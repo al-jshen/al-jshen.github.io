@@ -102,19 +102,14 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: underline;
-  color: var(--nord-acc4) !important;
   cursor: pointer;
 }
 
 .title {
   display: inline;
-  margin: 0;
-  line-height: 1.15;
+  line-height: 1.5;
   font-size: 3rem;
   font-weight: normal;
-}
-
-.title {
   text-align: center;
 }
 
@@ -124,9 +119,14 @@ h3 {
 }
 
 p {
+  display: inline;
   font-size: 1.5rem;
   line-height: 1.5;
   margin-bottom: 0; /* this doesn't actually get ignored */
+}
+
+p a {
+  color: var(--nord-frost2);
 }
 
 code {
@@ -181,7 +181,7 @@ code {
 .card:hover,
 .card:focus,
 .card:active {
-  color: var(--nord-light2);
+  color: var(--nord-frost2);
   background-color: var(--nord-dark0);
   border: 2px solid var(--nord-dark3);
   box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2);
@@ -194,7 +194,7 @@ code {
 
 .card p {
   margin: 0.5rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   line-height: 1.5;
   display: inline;
 }
@@ -209,4 +209,10 @@ code {
   border: 2px solid var(--nord-frost3);
   border-radius: 20px;
   box-shadow: 0px 4px 25px 5px rgba(0, 0, 0, 0.2);
+}
+
+.small {
+  margin: 1rem;
+  font-size: 1.05rem;
+  line-height: 0.2rem;
 }

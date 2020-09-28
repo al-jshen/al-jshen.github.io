@@ -21,6 +21,7 @@
        "react/react-in-jsx-scope": "off",
        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
        "react/jsx-one-expression-per-line": "off",
+       "react/no-unescaped-entities": "off",
        "jsx-a11y/anchor-is-valid": "off",
        "quotes": "off"
     }

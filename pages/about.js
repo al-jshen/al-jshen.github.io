@@ -23,11 +23,12 @@ export default function About() {
       </p>
       <p>
         I love to write{" "}
-        <a style={{ color: "#b7410e" }} href="https://www.rust-lang.org/">
+        <a style={{ color: "#d08770" }} href="https://www.rust-lang.org/">
           Rust
         </a>{" "}
-        and do *nix customization. I also love to learn new things. Most
-        recently, I've taken up running and playing the guitar.
+        and do *nix customization
+        <sup style={{ color: "#a3be8c" }}>&dagger;</sup>. I also love to learn
+        new things. Most recently, I've taken up running and playing the guitar.
       </p>
     </div>
   );
