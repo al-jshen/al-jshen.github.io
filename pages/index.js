@@ -23,6 +23,7 @@ export default function Home() {
           </div>
           <div className="column">
             <Projects />
+            <hr />
             <Misc />
           </div>
         </div>
