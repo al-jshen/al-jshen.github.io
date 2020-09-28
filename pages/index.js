@@ -18,7 +18,9 @@ export default function Home() {
 
       <main>
         <div className="row">
-          <About />
+          <div className="column">
+            <About />
+          </div>
           <div className="column">
             <Projects />
             <Misc />
