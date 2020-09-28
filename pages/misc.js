@@ -15,7 +15,6 @@ export default function Misc() {
         <a href="https://www.linkedin.com/in/jeff-shen/">LinkedIn</a>, or{" "}
         <a href="mailto:jshenschool@gmail.com">email</a>.
       </p>
-      {/* <p className="small"></p> */}
     </div>
   );
 }
