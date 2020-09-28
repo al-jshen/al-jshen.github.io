@@ -1,19 +1,33 @@
 export default function About() {
   return (
     <div className="column">
-      <h1 className="title">Jeff Shen</h1>
+      <div style={{ display: "inline" }}>
+        <h1 className="title">Jeff Shen</h1>
+        <p>&nbsp;</p>
+      </div>
       <p>
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo.
+        I am currently doing research in the field of astrostatistics under the
+        supervision of{" "}
+        <a href="https:/www.astro.utoronto.ca/~eadie/cover.html">Gwen Eadie</a>{" "}
+        and <a href="https://www.cita.utoronto.ca/~murray/">Norm Murray</a>. My
+        focus is on applying Bayesian statistics to study the mass distribution
+        of the Milky Way using kinematic data from tracer objects.
       </p>
       <p>
-        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-        fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-        sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-        sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-        tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        Before this, I was a summer research student supervised by{" "}
+        <a href="https://www.dunlap.utoronto.ca/dunlap-people/dr-allison-man/">
+          Allison Man
+        </a>
+        . I studied molecular gas in faint high redshift galaxies by leveraging
+        gravitational lensing.
+      </p>
+      <p>
+        I love to write{" "}
+        <a style={{ color: "#b7410e" }} href="https://www.rust-lang.org/">
+          Rust
+        </a>{" "}
+        and do *nix customization. I also love to learn new things. Most
+        recently, I've taken up running and playing the guitar.
       </p>
     </div>
   );
