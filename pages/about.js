@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function About() {
   return (
     <div className="column">
@@ -8,10 +10,15 @@ export default function About() {
       <p>
         I am currently doing research in the field of astrostatistics under the
         supervision of{" "}
-        <a href="https://www.cita.utoronto.ca/~murray/">Norm Murray</a> and{" "}
-        <a href="https://www.astro.utoronto.ca/~eadie/">Gwen Eadie</a>. My focus
-        is on applying Bayesian statistics to study the mass distribution of the
-        Milky Way using kinematic data from tracer objects.
+        <Link href="https://www.astro.utoronto.ca/~eadie/">
+          <a>Gwen Eadie</a>
+        </Link>{" "}
+        and{" "}
+        <Link href="https://www.cita.utoronto.ca/~murray/">
+          <a>Norm Murray</a>
+        </Link>
+        . My focus is on applying Bayesian statistics to study the mass
+        distribution of the Milky Way using kinematic data from tracer objects.
       </p>
       <p>
         Before this, I was a summer research student supervised by{" "}
