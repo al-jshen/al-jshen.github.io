@@ -99,9 +99,7 @@ a {
   color: inherit;
 }
 
-a:hover,
-a:focus,
-a:active {
+a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -180,9 +178,7 @@ code {
   transition: all 0.2s linear;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.card:hover {
   color: var(--nord-frost2);
   background-color: var(--nord-dark0);
   border: 2px solid var(--nord-dark3);
