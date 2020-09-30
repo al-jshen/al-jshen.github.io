@@ -10,15 +10,10 @@ export default function About() {
       <p>
         I am currently doing research in the field of astrostatistics under the
         supervision of{" "}
-        <Link href="https://www.astro.utoronto.ca/~eadie/">
-          <a>Gwen Eadie</a>
-        </Link>{" "}
-        and{" "}
-        <Link href="https://www.cita.utoronto.ca/~murray/">
-          <a>Norm Murray</a>
-        </Link>
-        . My focus is on applying Bayesian statistics to study the mass
-        distribution of the Milky Way using kinematic data from tracer objects.
+        <a href="//astro.utoronto.ca/~eadie/cover.html">Gwen Eadie</a>{" "}
+        and <a href="//www.cita.utoronto.ca/~murray/">Norm Murray</a>. My focus
+        is on applying Bayesian statistics to study the mass distribution of the
+        Milky Way using kinematic data from tracer objects.
       </p>
       <p>
         Before this, I was a summer research student supervised by{" "}
