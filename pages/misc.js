@@ -13,7 +13,7 @@ export default function Misc() {
         If you want to talk to me you can do so through{" "}
         <a href="https://github.com/al-jshen">GitHub</a>,{" "}
         <a href="https://www.linkedin.com/in/jeff-shen/">LinkedIn</a>, or{" "}
-        <a href="mailto:jshenschool@gmail.com">email</a>.
+        <a href="mailto:hello@jshen.org">email</a>.
       </p>
     </div>
   );
