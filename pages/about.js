@@ -5,10 +5,6 @@ export default function About() {
         <h1 className="title">Jeff Shen</h1>
         <p>&nbsp;</p>
       </div>
-      <div>
-        <a href="">&nbsp;</a>
-        <a href="">&nbsp;</a>
-      </div>
       <p>
         I am currently doing research in the field of astrostatistics under the
         supervision of{" "}
