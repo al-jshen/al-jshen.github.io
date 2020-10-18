@@ -1,15 +1,12 @@
 export default function About() {
   return (
     <div className="column">
-      <div style={{ display: "inline" }}>
-        <h1 className="title">Jeff Shen</h1>
-        <p>&nbsp;</p>
-      </div>
+      <h3 className="title">Jeff Shen</h3>
       <p>
         I am currently doing research in the field of astrostatistics under the
         supervision of{" "}
-        <a href="https://www.astro.utoronto.ca/~eadie/cover.html">Gwen Eadie</a>
-        <a href="https://www.astro.utoronto.ca/~eadie/cover.html">
+        <a href="https://www.astro.utoronto.ca/~eadie/intro.html">Gwen Eadie</a>
+        <a href="https://www.astro.utoronto.ca/~eadie/intro.html">
           &nbsp;
         </a>and <a href="https://www.cita.utoronto.ca/~murray/">Norm Murray</a>.
         <a href="https://www.cita.utoronto.ca/~murray/">&nbsp;</a>My focus is on
