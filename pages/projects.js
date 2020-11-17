@@ -8,7 +8,7 @@ export default function Projects() {
       <Link href="https://github.com/al-jshen/traycer">
         <a className="card">
           <h3>
-            Traycer
+            traycer
             <span style={{ color: "#bf616a" }}>&#8599;</span>
           </h3>
           <p>A parallel ray tracing engine built with Rust.</p>
@@ -33,6 +33,17 @@ export default function Projects() {
             <span style={{ color: "#bf616a" }}>&#8599;</span>
           </h3>
           <p>A crate for statistical computing.</p>
+        </a>
+      </Link>
+      <Link href="https://github.com/al-jshen/gmestan">
+        <a className="card">
+          <h3>
+            gmestan
+            <span style={{ color: "#bf616a" }}>&#8599;</span>
+          </h3>
+          <p>
+            Estimating the mass distribution of the Milky Way halo with Stan.
+          </p>
         </a>
       </Link>
     </div>
