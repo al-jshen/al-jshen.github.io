@@ -15,10 +15,8 @@ export default function About() {
       </p>
       <p>
         Before this, I was a summer research student supervised by{" "}
-        <a href="https://www.dunlap.utoronto.ca/dunlap-people/dr-allison-man/">
-          Allison Man
-        </a>
-        . I studied molecular gas in faint high redshift galaxies by leveraging
+        <a href="https://phas.ubc.ca/users/allison-man">Allison Man</a>. I
+        studied molecular gas in faint high redshift galaxies by leveraging
         gravitational lensing.
       </p>
       <p>
